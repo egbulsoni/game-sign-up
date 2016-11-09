@@ -1,0 +1,104 @@
+<!DOCTYPE HTML>
+<html>
+
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="layout.css">
+    <title>Cadastro de Jogadores</title>
+  </head>
+
+  <body>
+    <!-- HEADER -->
+    <header>
+      <h4>criado por eduardo - 21/10/2016</h4>
+    </header>
+    <!-- MENU -->
+  	<nav>
+  		<!-- TAG NAV PARA MARCAR SEMANTICAMENTE O MENU DE NAVEGACAO + LISTA UL E LI PARA OS ITEMS DO MENU + LINK -->
+  		<ul>
+  			<li><a href="cadastro.html">Cadastro de jogadores</a></li>
+  			<li><a href="lista_jog.html">Listagem de jogadores</a></li>
+  		</ul>
+  	</nav>
+    <p>bem vindo a página de cadastro de jogadores, digite as informações pessoais e clique em cadastrar.</p>
+    <form>
+      <fieldset>
+
+        <fieldset>
+          <label for="nome_1">Primeiro nome:</label>
+          <input type = "text" name = "primeiro_nome" id = "nome_1">
+        </fieldset>
+
+        <fieldset>
+          <label for="sobrenome">Sobrenome:</label>
+          <input type = "text" name = "ultimo_nome" id = "sobrenome">
+        </fieldset>
+
+        <fieldset>
+          <label class= "gen">
+            <input type="radio" name="genero" value="homem" checked> Homem<br>
+            <input type="radio" name="genero" value="mulher"> Mulher<br>
+          </label>
+        </fieldset>
+
+        <fieldset>
+          <label for="aniversario">Data de Aniversário:</label>
+          <input type = "date" name = "aniversario" id = "aniversario">
+        </fieldset>
+
+        <fieldset>
+          <label for="estado">Estado</label>
+          <select id = "estado">
+            <option>AC</option>
+            <option>AL</option>
+            <option>AP</option>
+            <option>AM</option>
+            <option>BA</option>
+            <option>CE</option>
+            <option>DF</option>
+            <option>ES</option>
+            <option>GO</option>
+            <option>MA</option>
+            <option>MT</option>
+            <option>MS</option>
+            <option>MG</option>
+            <option>PA</option>
+            <option>PB</option>
+            <option>PR</option>
+            <option>PE</option>
+            <option>PI</option>
+            <option>RJ</option>
+            <option>RN</option>
+            <option>RS</option>
+            <option>RO</option>
+            <option>RR</option>
+            <option>SC</option>
+            <option>SP</option>
+            <option>SE</option>
+            <option>TO</option>
+          </select>
+          </fieldset>
+
+        <fieldset>
+          <label for="email">Email:</label>
+          <input type = "email" name = "email" id = "email">
+        </fieldset>
+
+        <fieldset>
+           <label for="user">Usuario:</label>
+           <input type="text" name="usuario" id = "user"><br>
+           <label for="pass">Senha:</label>
+           <input type="password" name="senha" id = "pass">
+        </fieldset>
+
+      </fieldset>
+      <button>Enviar</button>
+    </form>
+
+    <footer>
+      <!-- TAG FOOTER PARA MARCAR SEMANTICAMENTE O CONTEUDO DO RODAPE -->
+      2016 - Desenvolvido no curso de desenvolvimento web
+    </footer>
+    <!-- / FOOTER -->
+  </body>
+</html>
