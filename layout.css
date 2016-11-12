@@ -22,6 +22,11 @@ body {
   background-color: #332F3D;
 }
 
+.wrapper {
+  max-width: 1024px;
+  width: 95%;
+  margin: 0 auto;
+}
 a:link{
 	color: #B8E0FF;
 }
@@ -38,13 +43,22 @@ a:active {
 	color: #676278;
 }
 
+
  ul {
-	margin-left: 345px;
+   width:100%;
+   flex-wrap:wrap;
+   display:flex;
+   align-items: center;
+   justify-content: center;
+}
+
+li, header, footer {
+  width: 100%;
+  text-align: center;
 }
 
 h4, p, footer, header {
   color: #FAF3E3;
-	margin-left: 300px;
 }
 
 .gen {
@@ -65,7 +79,7 @@ label {
 
 fieldset {
 	padding: 10px;
-	margin: 10px 300px;
+	margin: 10px;
   background-color: #676278;
 }
 
@@ -78,7 +92,10 @@ fieldset fieldset{
 }
 
 table {
-	margin-left: 345px;
+  width: 800px;
+  display: block;
+  margin: 0 auto;
+  max-width: 95%;
 	border-collapse: collapse;
 	border-style: solid;
 	border-width: 2px;
@@ -115,14 +132,16 @@ h3 {
 }
 
 button {
+    display: block;
+    margin: 0 auto;
+    width: 100px;
+    border-radius: 10px;
     background-color: #676278;
     border: none;
     color: #FAF3E3;
     padding: 5px 15px;
     text-align: center;
     text-decoration: none;
-    display: inline-block;
     font-size: 16px;
-    margin: 5px 750px;
     cursor: pointer;
 }
