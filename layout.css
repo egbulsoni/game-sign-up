@@ -92,30 +92,35 @@ fieldset fieldset{
 }
 
 table {
-  width: 800px;
-  display: block;
-  margin: 0 auto;
-  max-width: 95%;
+  width: 100%;
+	max-width: 95%;
+	word-break: break-all;
+  margin: 5px auto;
 	border-collapse: collapse;
-	border-style: solid;
-	border-width: 2px;
-	border-color: #676278;
 	color: #FAF3E3;
 	text-align: center;
 
 }
 
 th, td {
+	border:2px solid #332F3D;
 	padding: 10px 20px;
 	font-size: 20px;
+
 }
 
 th {
-	background-color: #676278;
+	background-color: #8FA2C3;
   color: #FAF3E3;
 }
 
 tr:nth-child(even) {background-color: #676278}
+
+.dts_fieldset {
+	width: 1024px;
+	max-width: 50%;
+	margin: 5px auto;
+}
 
 h2, h3 {
 	color: #FAF3E3;
